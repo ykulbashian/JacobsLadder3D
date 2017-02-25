@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayoutOuter" 
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:orientation="vertical">
+    
+    <ImageView 
+        android:contentDescription="Demonstration image of the theme"
+        android:id="@+id/theme_background_image"
+        android:scaleType="centerCrop"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+	    
+	    <LinearLayout
+	        android:orientation="horizontal"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content">
+	        
+		    <TextView 
+		        android:id="@+id/colors_title_text"
+		        android:textColor="@android:color/black"
+		        tools:text="Theme title"
+		        android:paddingLeft="5dp"
+		        android:paddingRight="5dp"
+		        android:background="@drawable/selector_theme_enabled_color"
+		        android:layout_height="wrap_content" 
+		        android:layout_width="wrap_content"/>
+		    <View 
+		        android:id="@+id/theme_title_background_side"
+		        android:background="@color/disabled_text"
+		        android:layout_width="3dp"
+		        android:layout_height="match_parent"
+		        android:layout_marginTop="3dp"/>
+	    </LinearLayout>
+        
+	    <View 
+	        android:id="@+id/theme_title_background"
+	        android:background="@color/disabled_text"
+	        android:layout_width="match_parent"
+	        android:layout_height="3dp"
+	        android:layout_marginLeft="3dp"/>
+    </LinearLayout>
+
+</RelativeLayout>

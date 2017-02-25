@@ -45,6 +45,21 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    productFlavors {
+        free {
+            versionCode 41
+            versionName "4.0.4"
+            versionNameSuffix "-free"
+        }
+        deluxe {
+            versionCode 16
+            versionName "2.6"
+            applicationIdSuffix ".deluxe"
+            versionNameSuffix "-deluxe"
+        }
+    }
+
     externalNativeBuild {
         cmake {
             path "CMakeLists.txt"
@@ -71,6 +86,7 @@ dependencies {
 
 }
 
+
 apply plugin: 'com.google.gms.google-services'
 
 /*
@@ -94,6 +110,4 @@ apply plugin: 'com.google.gms.google-services'
  Replace <Flavor> with your capitalized flavor name
 
 */
-
-
 

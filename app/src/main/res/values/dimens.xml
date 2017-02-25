@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Minimum space to allocate to the left of a preference item for an icon.
+        This helps in aligning titles when some items have icons and some don't. When space is
+        at a premium, we don't pre-allocate any space. -->
+    <dimen name="preference_icon_minWidth">0dp</dimen>
+    
+    <!-- Preference widget area width (to the left of the text) -->
+    <dimen name="preference_widget_width">30dp</dimen>
+    
+    
+    <integer name="min_x_blocks">11</integer>
+    <integer name="max_x_blocks">29</integer>
+    <integer name="default_x_blocks">25</integer>
+    
+    <integer name="min_y_blocks">11</integer>
+    <integer name="max_y_blocks">29</integer>
+    <integer name="default_y_blocks">25</integer>
+    
+    <integer name="min_z_blocks">35</integer>
+    <integer name="max_z_blocks">60</integer>
+    <integer name="default_z_blocks">57</integer>
+    
+    
+    
+    <integer name="min_total_blocks">1000</integer>
+    <integer name="max_total_blocks">4000</integer>
+    <integer name="default_total_blocks">3500</integer>
+    <integer name="min_complexity_level">1</integer>
+    <integer name="max_complexity_level">10</integer>
+    <integer name="default_complexity_level">9</integer>
+    
+    <integer name="default_color">0</integer>
+    
+    <integer name="min_brightness">0</integer>
+    <integer name="max_brightness">10</integer>
+    <integer name="default_brightness">10</integer>
+
+    <dimen name="custom_color_border_width">1dp</dimen>
+    <dimen name="custom_color_face_width">45dp</dimen>
+    <dimen name="custom_color_face_group_width">135dp</dimen>
+
+
+    <!-- CUSTOM COLORS -->
+    <dimen name="corner_lights_width">78dp</dimen>
+    <dimen name="corner_lights_margin">10dp</dimen>
+
+    <dimen name="corner_face_margin_top_bottom">15dp</dimen>
+    <dimen name="corner_face_margin_left_right">10dp</dimen>
+    <dimen name="corner_light_margin">-25dp</dimen>
+    
+    <dimen name="text_popup_margin">25dp</dimen>
+    
+</resources>

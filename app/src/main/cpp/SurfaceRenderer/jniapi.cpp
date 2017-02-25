@@ -15,7 +15,7 @@ void methodStart(jint id, const char *methodName)
 	LOG_INFO_DEBUG("JNI %s (%d)", methodName, id);
 
 #ifdef DEBUG_MODE_TIMER
-
+	LOG_ERROR_DEBUG("JNI %s %llu", methodName, Timer::stopTimer(Timer::LONG_TERM));
 #endif
 }
 
@@ -25,6 +25,8 @@ void methodStart(jint id, const char *methodName)
 
 JNIEXPORT void JNICALL Java_com_mycardboarddreams_jacobsladder_baselib_NativeGLWallpaperService_00024NativeGLWallpaperEngine_nativeOnCreate(JNIEnv* jenv, jobject obj, jint id)
 {
+    Timer::startTimer(Timer::LONG_TERM);
+
 	methodStart(id, "nativeOnCreate");
 
 	SurfaceHandler::getSurfaceRendererByHandle(id, obj, jenv);

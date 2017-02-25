@@ -1,6 +1,111 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name" translatable="false">Native Live Wallpaper</string>
+    <string name="jacobs_ladder_free"	            >Jacob\'s Ladder (Free)</string>
+
+    <string name="unpaused"                         >Resumed. Double tap to pause.</string>
+    <string name="paused"                           >Paused. Double tap to resume.</string>
+
+    <string name="settings_starting"                >Opening settings page&#8230;</string>
+
+    <string name="saved_custom_theme_toast"         >Saved</string>
+    <string name="select_color_theme"               >Styles</string>
+    <string name="custom_save_button_label"         >Save</string>
+
+
+    <!-- HELP DIALOG -->
+    <string name="help_dialog_title"                >How to use Jacob\'s Ladder</string>
+    <string name="help_dialog_ok"                   >OK</string>
+
+    <!-- CUSTOM COLORING -->
+    <string name="custom_color_title"               >Creator</string>
+    <string name="custom_background_color"          >Background color</string>
+    <string name="label_show_walls"                 >Show walls</string>
+    <string name="custom_theme_save_overwrite"      >Replace</string>
+    <string name="custom_theme_save_cancel"         >Cancel</string>
+    <string name="custom_theme_save_overwrite_title">Replace an existing style</string>
+    <string name="custom_theme_save_overwrite_body" >Are you sure you want to replace this style?</string>
+    <string name="save_custom_theme"                >@string/custom_save_button_label</string>
+    <string name="enter_custom_theme_title"         >Name</string>
+
+    <!-- COLOR SELECTOR -->
+    <string name="dialog_color_picker"              >Color selector</string>
+
+
+    <string-array name="help_dialog_message">
+        <item>Set Jacob\'s Ladder as your Live Wallpaper.</item>
+        <item>Double-tap on the wallpaper to pause and resume.</item>
+        <item>Touch the cubes to move them.</item>
+    </string-array>
+
+    <string name="default_color_select">@string/tokyo</string>
+
+
+    <string name="app_name">@string/jacobs_ladder</string>
+
+
+    <!-- KEYS -->
+    <string name="key_is_premium" translatable="false">is_premium</string>
+
+    <string name="key_color_brightness" translatable="false">color_brightness</string>
+    <string name="key_complexity_level" translatable="false">complexity_level</string>
+    <string name="key_select_theme" translatable="false">select_theme_by_name</string>
+    
+    <string name="key_app_styling" translatable="false">app_style</string>
+    
+    <string name="key_save_custom_set" translatable="false">save_custom_set</string>
+    
+    
+    <!-- CUSTOM COLORS -->
+    <string name="key_custom_theme_prefs" translatable="false">custom_theme_prefs</string>
+
+    <string name="key_custom_color_prefix" translatable="false">custom_color_</string>
+    <string name="custom_theme_prefix_" translatable="false">CUSTOM_THEMES_SANITIZED_PREFIX__</string>
+    <string name="key_use_composer_colors" translatable="false">use_composer_colors</string>
+    
+    <string name="key_custom_colors" translatable="false">custom_colors</string>
+    <string name="key_custom_colors_header" translatable="false">custom_colors_drop_down_header</string>
+    
+    <string name="key_custom_color_background" translatable="false">custom_color_background</string>
+    <string name="key_custom_color_primary" translatable="false">custom_color_primary</string>
+    <string name="key_custom_color_mid" translatable="false">custom_color_mid</string>
+    <string name="key_custom_color_distant" translatable="false">custom_color_distant</string>
+    
+    <string name="key_custom_color_top_left" translatable="false">custom_color_top_left</string>
+    <string name="key_custom_color_top_right" translatable="false">custom_color_top_right</string>
+    <string name="key_custom_color_bottom_left" translatable="false">custom_color_bottom_left</string>
+    <string name="key_custom_color_bottom_right" translatable="false">custom_color_bottom_right</string>
+    
+    <string name="key_custom_color_near_face_bl" translatable="false">custom_color_near_face_bl</string>
+    <string name="key_custom_color_left_face_bl" translatable="false">custom_color_left_face_bl</string>
+    <string name="key_custom_color_right_face_bl" translatable="false">custom_color_right_face_bl</string>
+    <string name="key_custom_color_top_face_bl" translatable="false">custom_color_top_face_bl</string>
+    <string name="key_custom_color_bottom_face_bl" translatable="false">custom_color_bottom_face_bl</string>
+    
+    <string name="key_custom_color_near_face_tl" translatable="false">custom_color_near_face_tl</string>
+    <string name="key_custom_color_left_face_tl" translatable="false">custom_color_left_face_tl</string>
+    <string name="key_custom_color_right_face_tl" translatable="false">custom_color_right_face_tl</string>
+    <string name="key_custom_color_top_face_tl" translatable="false">custom_color_top_face_tl</string>
+    <string name="key_custom_color_bottom_face_tl" translatable="false">custom_color_bottom_face_tl</string>
+    
+    <string name="key_custom_color_near_face_tr" translatable="false">custom_color_near_face_tr</string>
+    <string name="key_custom_color_left_face_tr" translatable="false">custom_color_left_face_tr</string>
+    <string name="key_custom_color_right_face_tr" translatable="false">custom_color_right_face_tr</string>
+    <string name="key_custom_color_top_face_tr" translatable="false">custom_color_top_face_tr</string>
+    <string name="key_custom_color_bottom_face_tr" translatable="false">custom_color_bottom_face_tr</string>
+    
+    <string name="key_custom_color_near_face_br" translatable="false">custom_color_near_face_br</string>
+    <string name="key_custom_color_left_face_br" translatable="false">custom_color_left_face_br</string>
+    <string name="key_custom_color_right_face_br" translatable="false">custom_color_right_face_br</string>
+    <string name="key_custom_color_top_face_br" translatable="false">custom_color_top_face_br</string>
+    <string name="key_custom_color_bottom_face_br" translatable="false">custom_color_bottom_face_br</string>
+    
+    <string name="key_custom_has_background" translatable="false">custom_color_has_background</string>
+    
+    <string name="key_custom_color_set_keys" translatable="false">custom_color_set_keys</string>
+    
+    <string name="key_signal_wallpaper_update" translatable="false">key_signal_wallpaper_update</string>
+    <string name="key_signal_composer_update" translatable="false">key_signal_composer_update</string>
+    <string name="key_custom_theme_help" translatable="false">key_custom_theme_help</string>
 
 </resources>

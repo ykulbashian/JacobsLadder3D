@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">@string/jacobs_ladder</string>
+
+    <string name="jacobs_ladder_free">ヤコブのはしご (無償)</string>
+
+    <string name="jacobs_ladder"	>ヤコブのはしご</string>
+    <string name="marshmallow"		>マシュマロ</string>
+    <string name="bananas"			>バナナ</string>
+    <string name="fernlight"		>シダの光</string>
+    <string name="emerald_forest"	>エメラルドの森</string>
+    <string name="lime_jello"		>ライム・ゼリー</string>
+    <string name="lime_cream"		>ライムクリーム</string>
+    <string name="pale_blue"		>ライトブルー</string>
+    <string name="airplane_window"	>飛行機の窓</string>
+    <string name="arctic"			>北極</string>
+    <string name="aquarium"			>水族館</string>
+    <string name="swimming_pool"	>スイミングプール</string>
+    <string name="bacterium"		>細菌</string>
+    <string name="tokyo"			>東京</string>
+    <string name="disco"			>ディスコ</string>
+    <string name="blue_ultrasonic"	>青色超音波</string>
+    <string name="geode"			>結晶</string>
+    <string name="sepia"			>セピア</string>
+    <string name="calypso"			>カリプソ</string>
+    <string name="storm"			>嵐</string>
+    <string name="gotham"			>ゴッサム</string>
+    <string name="underworld"		>アンダーワールド</string>
+    <string name="orpheus"			>オルフェウス</string>
+    <string name="shadow_cliffs"	>影の崖</string>
+    <string name="backstage"		>舞台裏</string>
+    <string name="gold"				>ゴールド</string>
+    <string name="ember"			>残り火</string>
+    <string name="tangerine"		>タンジェリン</string>
+    <string name="sunflower"		>ひまわり</string>
+
+
+
+    <string-array name="help_dialog_message">
+        <item>あなたのライブ壁紙としてJacobのはしごを設定します。</item>
+        <item>一時停止して再開するには、壁紙をダブルタップします。</item>
+        <item>キューブに触れることによってキューブを移動します。</item>
+    </string-array>
+
+
+    <string name="custom_save_button_label">保存する</string>
+    <string name="custom_theme_save_cancel">キャンセルする</string>
+    <string name="custom_background_color">背景色</string>
+    <string name="custom_theme_save_overwrite_title">既存のスタイルを置き換えます</string>
+    <string name="dialog_color_picker">カラーセレクタ</string>
+    <string name="enter_custom_theme_title">名</string>
+    <string name="label_show_walls">壁を表示する</string>
+    <string name="paused">一時停止。 再開するにはダブルタップしてください</string>
+    <string name="unpaused">再開。 ダブルタップすると一時停止します</string>
+    <string name="saved_custom_theme_toast">保存されました</string>
+    <string name="select_color_theme">スタイル</string>
+    <string name="settings_starting">設定ページが開きます</string>
+    <string name="help_dialog_ok">ページを閉じる</string>
+    <string name="custom_theme_save_overwrite_body">このスタイルを置き換えてもよろしいですか？</string>
+    <string name="custom_color_title">クリエイター</string>
+    <string name="custom_theme_save_overwrite">上書きする</string>
+    <string name="help_dialog_title">Jacob\'s Ladderを使用するにはどうすればいいですか？</string>
+    <string name="save_custom_theme">@string/custom_save_button_label</string>
+    <string name="default_color_select">@string/tokyo</string>
+
+</resources>

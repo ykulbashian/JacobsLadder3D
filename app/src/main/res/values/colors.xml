@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="enabled_text">#FFFFFF</color>
+    <color name="disabled_text">#555555</color>
+    
+    <color name="background_faded_dark_grey">#FF222222</color>
+    <color name="background_dark_preference">@android:color/background_dark</color>
+    
+    <color name="list_divider_grey">#FF3F3F3F</color>
+    
+</resources>

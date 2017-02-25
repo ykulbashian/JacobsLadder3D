@@ -7,7 +7,7 @@ import android.util.Log;
 import android.view.Surface;
 import android.view.SurfaceHolder;
 
-import com.mycardboarddreams.jacobsladder.BuildConfig;
+import com.mycardboarddreams.jacobsladder.deluxe.BuildConfig;
 
 public abstract class NativeGLWallpaperService<T extends NativeGLWallpaperService<T>.NativeGLWallpaperEngine> extends WallpaperService {
 

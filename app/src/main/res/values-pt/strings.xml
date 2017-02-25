@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">@string/jacobs_ladder</string>
+    <string name="jacobs_ladder_free"	            >Escada de Jacob (Grátis)</string>
+
+    <string name="unpaused"                         >Começado. Toque duas vezes para pausar.</string>
+    <string name="paused"                           >Pausado. Toque duas vezes para retomar.</string>
+
+    <string name="settings_starting"                >Abrir a página de configurações&#8230;</string>
+
+    <string name="saved_custom_theme_toast"         >Guardou</string>
+    <string name="select_color_theme"               >Estilo</string>
+    <string name="custom_save_button_label"         >Guardar</string>
+
+
+    <!-- HELP DIALOG -->
+    <string name="help_dialog_title"                >Como usar a Escada de Jacob.</string>
+    <string name="help_dialog_ok"                   >OK</string>
+
+    <!-- CUSTOM COLORING -->
+    <string name="custom_color_title"               >Criador</string>
+    <string name="custom_background_color"          >Cor de fundo</string>
+    <string name="label_show_walls"                 >Mostrar paredes</string>
+    <string name="custom_theme_save_overwrite"      >Substituir</string>
+    <string name="custom_theme_save_cancel"         >Cancelar</string>
+    <string name="custom_theme_save_overwrite_title">Substituir o estilo existente</string>
+    <string name="custom_theme_save_overwrite_body" >Tem certeza de que deseja substituir esse estilo?</string>
+    <string name="save_custom_theme"                >@string/custom_save_button_label</string>
+    <string name="enter_custom_theme_title"         >Nome</string>
+
+    <string name="default_color_select">@string/tokyo</string>
+
+    <!-- COLOR SELECTOR -->
+    <string name="dialog_color_picker"              >Selecionador de cores</string>
+
+
+    <string name="jacobs_ladder"	>Escada de Jacob</string>
+    <string name="marshmallow"		>Marshmallow</string>
+    <string name="bananas"			>Bananas</string>
+    <string name="fernlight"		>Luz de samambaia</string>
+    <string name="emerald_forest"	>Floresta Esmeralda</string>
+    <string name="lime_jello"		>Geléia de lima</string>
+    <string name="lime_cream"		>Creme de lima</string>
+    <string name="pale_blue"		>Azul claro</string>
+    <string name="airplane_window"	>Janela do Avião</string>
+    <string name="arctic"			>Ártico</string>
+    <string name="aquarium"			>Aquário</string>
+    <string name="swimming_pool"	>Piscina</string>
+    <string name="bacterium"		>Bactéria</string>
+    <string name="tokyo"			>Tóquio</string>
+    <string name="disco"			>Discoteca</string>
+    <string name="blue_ultrasonic"	>Azul Ultrassônico</string>
+    <string name="geode"			>Geode</string>
+    <string name="sepia"			>Sépia</string>
+    <string name="calypso"			>Calypso</string>
+    <string name="storm"			>Tempestade</string>
+    <string name="gotham"			>Gotham</string>
+    <string name="underworld"		>Submundo</string>
+    <string name="orpheus"			>Orfeu</string>
+    <string name="shadow_cliffs"	>Shadow Cliffs</string>
+    <string name="backstage"		>Nos bastidores</string>
+    <string name="gold"				>Ouro</string>
+    <string name="ember"			>Brasa</string>
+    <string name="tangerine"		>Tangerina</string>
+    <string name="sunflower"		>Girassol</string>
+
+
+    <string-array name="help_dialog_message">
+        <item>Defina Escada de Jacó como seu Live Wallpaper.</item>
+        <item>Toque duas vezes no papel de parede para pausar e retomá-lo.</item>
+        <item>Toque nos cubos para fazê-los se mover.</item>
+    </string-array>
+
+</resources>

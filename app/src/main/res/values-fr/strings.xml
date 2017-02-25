@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">@string/jacobs_ladder</string>
+    <string name="jacobs_ladder_free">L\'Échelle de Jacob (Gratuit)</string>
+
+    <string name="jacobs_ladder"	>L\'Échelle de Jacob</string>
+    <string name="marshmallow"		>Guimauve</string>
+    <string name="bananas"			>Bananes</string>
+    <string name="fernlight"		>Lumière des fougères</string>
+    <string name="emerald_forest"	>Forêt d\'émeraude</string>
+    <string name="lime_jello"		>Gelée de chaux</string>
+    <string name="lime_cream"		>Crème à la lime</string>
+    <string name="pale_blue"		>Bleu pâle</string>
+    <string name="airplane_window"	>Hublot de l\'avion</string>
+    <string name="arctic"			>Arctique</string>
+    <string name="aquarium"			>Aquarium</string>
+    <string name="swimming_pool"	>Piscine</string>
+    <string name="bacterium"		>Bactérie</string>
+    <string name="tokyo"			>Tokyo</string>
+    <string name="disco"			>Disco</string>
+    <string name="blue_ultrasonic"	>Bleu Ultrasonique</string>
+    <string name="geode"			>Géode</string>
+    <string name="sepia"			>Sépia</string>
+    <string name="calypso"			>Calypso</string>
+    <string name="storm"			>Orage</string>
+    <string name="gotham"			>Gotham</string>
+    <string name="underworld"		>Pègre</string>
+    <string name="orpheus"			>Orphée</string>
+    <string name="shadow_cliffs"	>Ombre des falaises</string>
+    <string name="backstage"		>Dans les coulisses</string>
+    <string name="gold"				>Or</string>
+    <string name="ember"			>Charbon ardent</string>
+    <string name="tangerine"		>Mandarine</string>
+    <string name="sunflower"		>Tournesol</string>
+
+
+    <string-array name="help_dialog_message">
+        <item>Définir l\'Échelle de Jacob comme votre Live Wallpaper.</item>
+        <item>Double-tapez sur le papier peint pour faire une pause et le reprendre.</item>
+        <item>Touchez les cubes pour les faire bouger.</item>
+    </string-array>
+
+
+    <string name="custom_theme_save_cancel">Annuler</string>
+    <string name="custom_save_button_label">Enregistrer</string>
+    <string name="custom_background_color">Couleur de fond</string>
+    <string name="custom_color_title">Créateur</string>
+    <string name="custom_theme_save_overwrite">Remplacer</string>
+    <string name="custom_theme_save_overwrite_body">Voulez-vous vraiment remplacer ce style?</string>
+    <string name="custom_theme_save_overwrite_title">Remplacez un style existant.</string>
+    <string name="dialog_color_picker">Sélecteur de couleurs</string>
+    <string name="enter_custom_theme_title">Nom</string>
+    <string name="help_dialog_ok">OK</string>
+    <string name="help_dialog_title">Comment utiliser l\'Échelle de Jacob</string>
+    <string name="label_show_walls">Montrer les murs</string>
+    <string name="select_color_theme">Modes</string>
+    <string name="saved_custom_theme_toast">Enregistré</string>
+    <string name="unpaused">A repris. Double-cliquer pour faire une pause.</string>
+    <string name="paused">En pause. Double-cliquer pour reprendre.</string>
+    <string name="settings_starting">Ouverture de la page des paramètres&#8230;</string>
+    <string name="save_custom_theme">@string/custom_save_button_label</string>
+    <string name="default_color_select">@string/tokyo</string>
+
+</resources>

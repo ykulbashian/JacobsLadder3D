@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">@string/jacobs_ladder</string>
+
+    <string name="jacobs_ladder_free"	            >Jakobs Treppen (Gratis)</string>
+
+    <string name="unpaused"                         >Wieder aufgenommen. Doppeltippen, um anzuhalten.</string>
+    <string name="paused"                           >Pausiert. Zum Fortsetzen doppeltippen.</string>
+
+    <string name="settings_starting"                >Die Einstellungsseite wird geöffnet&#8230;</string>
+
+    <string name="saved_custom_theme_toast"         >Gerettet</string>
+    <string name="select_color_theme"               >Stile</string>
+    <string name="custom_save_button_label"         >Speichern</string>
+
+
+    <!-- HELP DIALOG -->
+    <string name="help_dialog_title"                >Wie benutzt man Jakobsleiter?</string>
+    <string name="help_dialog_ok"                   >OK</string>
+
+
+    <!-- CUSTOM COLORING -->
+    <string name="custom_color_title"               >Schöpfer</string>
+    <string name="custom_background_color"          >Hintergrundfarbe</string>
+    <string name="label_show_walls"                 >Zeigen Sie die Wände</string>
+    <string name="custom_theme_save_overwrite"      >Ersetzen</string>
+    <string name="custom_theme_save_cancel"         >Abbrechen</string>
+    <string name="custom_theme_save_overwrite_title">Ersetzen Sie einen vorhandenen Stil</string>
+    <string name="custom_theme_save_overwrite_body" >Sind Sie sicher, dass Sie diesen Stil ersetzen möchten?</string>
+    <string name="save_custom_theme"                >@string/custom_save_button_label</string>
+    <string name="enter_custom_theme_title"         >die Benennung</string>
+
+    <string name="default_color_select">@string/tokyo</string>
+
+    <!-- COLOR SELECTOR -->
+    <string name="dialog_color_picker"              >Farbwähler</string>
+
+
+    <string name="jacobs_ladder"	>Jakobs Treppen</string>
+    <string name="marshmallow"		>Marshmallow</string>
+    <string name="bananas"			>Bananen</string>
+    <string name="fernlight"		>Licht von Farn</string>
+    <string name="emerald_forest"	>Wald von Smaragd</string>
+    <string name="lime_jello"		>Lime Jello</string>
+    <string name="lime_cream"		>Limettencreme</string>
+    <string name="pale_blue"		>Hellblau</string>
+    <string name="airplane_window"	>Flugzeug Fenster</string>
+    <string name="arctic"			>Arktis</string>
+    <string name="aquarium"			>Aquarium</string>
+    <string name="swimming_pool"	>Pool</string>
+    <string name="bacterium"		>Bakterium</string>
+    <string name="tokyo"			>Tokio</string>
+    <string name="disco"			>Disko</string>
+    <string name="blue_ultrasonic"	>Blauer Ultraschall</string>
+    <string name="geode"			>Geode</string>
+    <string name="sepia"			>Sepia</string>
+    <string name="calypso"			>Calypso</string>
+    <string name="storm"			>Sturm</string>
+    <string name="gotham"			>Gotham</string>
+    <string name="underworld"		>Unterwelt</string>
+    <string name="orpheus"			>Orpheus</string>
+    <string name="shadow_cliffs"	>Schattenklippen</string>
+    <string name="backstage"		>Hinter den Kulissen</string>
+    <string name="gold"				>Gold</string>
+    <string name="ember"			>Glut</string>
+    <string name="tangerine"		>Mandarine</string>
+    <string name="sunflower"		>Sonnenblume</string>
+
+
+
+    <string-array name="help_dialog_message">
+        <item>Setze Jakobs leiter als dein Live Wallpaper.</item>
+        <item>Doppeltippen Sie auf das Hintergrundbild, um anzuhalten und fortzusetzen.</item>
+        <item>Tippen Sie auf die Würfel, um sie zu verschieben.</item>
+    </string-array>
+
+</resources>

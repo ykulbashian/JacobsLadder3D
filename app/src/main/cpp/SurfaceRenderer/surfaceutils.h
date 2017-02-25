@@ -3,6 +3,7 @@
 #define SURFACEUTILS_H_
 
 
+#include "Utils/timer.h"
 #include "SurfaceRenderer/logger.h"
 #include <assert.h>
 
@@ -51,8 +52,8 @@ public:
 
 #ifdef DEBUG_MODE_TIMER
 
-#define START_TIMER
-#define END_TIMER(num)
+#define START_TIMER Timer::startTimer();
+#define END_TIMER(num) Timer::SavedTimes[num] = Timer::stopTimer();
 
 #else
 

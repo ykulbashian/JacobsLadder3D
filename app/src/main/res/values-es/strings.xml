@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">@string/jacobs_ladder</string>
+    <string name="jacobs_ladder_free">La Escalera de Jacob (Gratis)</string>
+
+    <string name="jacobs_ladder"	>La Escalera de Jacob</string>
+    <string name="marshmallow"		>Malvavisco</string>
+    <string name="bananas"			>Plátanos</string>
+    <string name="fernlight"		>Luz de helecho</string>
+    <string name="emerald_forest"	>Bosque Esmeralda</string>
+    <string name="lime_jello"		>Jalea de lima</string>
+    <string name="lime_cream"		>Crema de lima</string>
+    <string name="pale_blue"		>Azul pálido</string>
+    <string name="airplane_window"	>Ventana del avión</string>
+    <string name="arctic"			>Ártico</string>
+    <string name="aquarium"			>Acuario</string>
+    <string name="swimming_pool"	>Piscina</string>
+    <string name="bacterium"		>Bacteria</string>
+    <string name="tokyo"			>Tokio</string>
+    <string name="disco"			>Discoteca</string>
+    <string name="blue_ultrasonic"	>Azul Ultrasónico</string>
+    <string name="geode"			>Geode</string>
+    <string name="sepia"			>Sepia</string>
+    <string name="calypso"			>Calipso</string>
+    <string name="storm"			>Tormenta</string>
+    <string name="gotham"			>Gotham</string>
+    <string name="underworld"		>Inframundo</string>
+    <string name="orpheus"			>Orfeo</string>
+    <string name="shadow_cliffs"	>Acantilados de la sombra</string>
+    <string name="backstage"		>Entre bastidores</string>
+    <string name="gold"				>Oro</string>
+    <string name="ember"			>Ascua</string>
+    <string name="tangerine"		>Mandarina</string>
+    <string name="sunflower"		>Girasol</string>
+
+
+
+    <string-array name="help_dialog_message">
+        <item>Establecer la Escalera de Jacob como tu Live Wallpaper.</item>
+        <item>Toque dos veces en el fondo de pantalla para pausar y reanudar.</item>
+        <item>Toque los cubos para moverlos.</item>
+    </string-array>
+
+
+    <string name="custom_save_button_label">Guardar</string>
+    <string name="custom_theme_save_cancel">Cancelar</string>
+    <string name="help_dialog_ok">OK</string>
+    <string name="dialog_color_picker">Selector de color</string>
+    <string name="custom_background_color">Color de fondo</string>
+    <string name="custom_theme_save_overwrite">Reemplazar</string>
+    <string name="label_show_walls">Mostrar paredes</string>
+    <string name="enter_custom_theme_title">Nombre</string>
+    <string name="select_color_theme">Estilo</string>
+    <string name="custom_theme_save_overwrite_title">Reemplazar el estilo existente</string>
+    <string name="custom_theme_save_overwrite_body">¿Estás seguro de que quieres reemplazar este estilo?</string>
+    <string name="saved_custom_theme_toast">Guardado</string>
+    <string name="custom_color_title">Creador</string>
+    <string name="help_dialog_title">Cómo usar La Escalera de Jacob</string>
+    <string name="paused">Pausado. Toca dos veces para continuar.</string>
+    <string name="settings_starting">Se abre la página de configuración&#8230;</string>
+    <string name="unpaused">Empezado. Toca dos veces para pausar.</string>
+    <string name="save_custom_theme">@string/custom_save_button_label</string>
+
+    <string name="default_color_select">@string/tokyo</string>
+
+</resources>

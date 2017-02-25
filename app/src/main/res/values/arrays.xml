@@ -1,0 +1,1336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="custom_color_all_keys">
+        
+        <item>@string/key_custom_color_background</item>
+        
+        <item>@string/key_custom_color_left_face_bl</item>
+        <item>@string/key_custom_color_right_face_bl</item>
+        <item>@string/key_custom_color_top_face_bl</item>
+        <item>@string/key_custom_color_bottom_face_bl</item>
+        <item>@string/key_custom_color_near_face_bl</item>
+        
+        <item>@string/key_custom_color_left_face_tl</item>
+        <item>@string/key_custom_color_right_face_tl</item>
+        <item>@string/key_custom_color_top_face_tl</item>
+        <item>@string/key_custom_color_bottom_face_tl</item>
+        <item>@string/key_custom_color_near_face_tl</item>
+        
+        <item>@string/key_custom_color_left_face_tr</item>
+        <item>@string/key_custom_color_right_face_tr</item>
+        <item>@string/key_custom_color_top_face_tr</item>
+        <item>@string/key_custom_color_bottom_face_tr</item>
+        <item>@string/key_custom_color_near_face_tr</item>
+        
+        <item>@string/key_custom_color_left_face_br</item>
+        <item>@string/key_custom_color_right_face_br</item>
+        <item>@string/key_custom_color_top_face_br</item>
+        <item>@string/key_custom_color_bottom_face_br</item>
+        <item>@string/key_custom_color_near_face_br</item>
+        
+        <item>@string/key_custom_color_bottom_left</item>
+        <item>@string/key_custom_color_top_right</item>
+        <item>@string/key_custom_color_top_left</item>
+        <item>@string/key_custom_color_bottom_right</item>
+        
+        <item>@string/key_custom_color_primary</item>
+        <item>@string/key_custom_color_distant</item>
+        <item>@string/key_custom_color_mid</item>
+        
+        <item>@string/key_custom_has_background</item>
+    </string-array>
+
+
+	<string name="jacobs_ladder"	>Jacob\'s Ladder</string>
+	<string name="marshmallow"		>Marshmallow</string>
+	<string name="bananas"			>Bananas</string>
+	<string name="fernlight"		>Fernlight</string>
+	<string name="emerald_forest"	>Emerald Forest</string>
+	<string name="lime_jello"		>Lime Jello</string>
+	<string name="lime_cream"		>Lime Cream</string>
+	<string name="pale_blue"		>Pale Blue</string>
+	<string name="airplane_window"	>Airplane Window</string>
+	<string name="arctic"			>Arctic</string>
+	<string name="aquarium"			>Aquarium</string>
+	<string name="swimming_pool"	>Swimming Pool</string>
+	<string name="bacterium"		>Bacterium</string>
+	<string name="tokyo"			>Tokyo</string>
+	<string name="disco"			>Disco</string>
+	<string name="blue_ultrasonic"	>Blue Ultrasonic</string>
+	<string name="geode"			>Geode</string>
+	<string name="sepia"			>Sepia</string>
+	<string name="calypso"			>Calypso</string>
+	<string name="storm"			>Storm</string>
+	<string name="gotham"			>Gotham</string>
+	<string name="underworld"		>Underworld</string>
+	<string name="orpheus"			>Orpheus</string>
+	<string name="shadow_cliffs"	>Shadow Cliffs</string>
+	<string name="backstage"		>Backstage</string>
+	<string name="gold"				>Gold</string>
+	<string name="ember"			>Ember</string>
+	<string name="tangerine"		>Tangerine</string>
+	<string name="sunflower"		>Sunflower</string>
+
+
+    <string-array name="color_options_readable">
+        <item>@string/jacobs_ladder</item>
+        <item>@string/marshmallow</item>
+        <item>@string/bananas</item>
+        <item>@string/fernlight</item>
+        <item>@string/emerald_forest</item>
+        <item>@string/lime_jello</item>
+        <item>@string/lime_cream</item>
+        <item>@string/pale_blue</item>
+        <item>@string/airplane_window</item>
+        <item>@string/arctic</item>
+        <item>@string/aquarium</item>
+        <item>@string/swimming_pool</item>
+        <item>@string/bacterium</item>
+        <item>@string/tokyo</item>
+        <item>@string/disco</item>
+        <item>@string/blue_ultrasonic</item>
+        <item>@string/geode</item>
+        <item>@string/sepia</item>
+        <item>@string/calypso</item>
+        <item>@string/storm</item>
+        <item>@string/gotham</item>
+        <item>@string/underworld</item>
+        <item>@string/orpheus</item>
+        <item>@string/shadow_cliffs</item>
+        <item>@string/backstage</item>
+        <item>@string/gold</item>
+        <item>@string/ember</item>
+        <item>@string/tangerine</item>
+        <item>@string/sunflower</item>
+    </string-array>
+
+    
+    <array name="all_color_arrays">
+        <item>@drawable/jacobsladder</item>
+        <item>@drawable/marshmallow</item>
+        <item>@drawable/bananas</item>
+        <item>@drawable/fernlight</item>
+        <item>@drawable/emeraldforest</item>
+        <item>@drawable/limejello</item>
+        <item>@drawable/limecream</item>
+        <item>@drawable/paleblue</item>
+        <item>@drawable/airplanewindow</item>
+        <item>@drawable/arctic</item>
+        <item>@drawable/aquarium</item>
+        <item>@drawable/swimmingpool</item>
+        <item>@drawable/bacterium</item>
+        <item>@drawable/tokyo</item>
+        <item>@drawable/disco</item>
+        <item>@drawable/blueultrasonic</item>
+        <item>@drawable/geode</item>
+        <item>@drawable/sepia</item>
+        <item>@drawable/calypso</item>
+        <item>@drawable/storm</item>
+        <item>@drawable/gotham</item>
+        <item>@drawable/underworld</item>
+        <item>@drawable/orpheus</item>
+        <item>@drawable/shadowcliffs</item>
+        <item>@drawable/backstage</item>
+        <item>@drawable/gold</item>
+        <item>@drawable/ember</item>
+        <item>@drawable/tangerine</item>
+        <item>@drawable/sunflower</item>
+    </array>
+     
+    <array name="all_theme_arrays">
+        <item>@array/jacobsladder</item>
+        <item>@array/marshmallow</item>
+        <item>@array/bananas</item>
+        <item>@array/fernlight</item>
+        <item>@array/emeraldforest</item>
+        <item>@array/limejello</item>
+        <item>@array/limecream</item>
+        <item>@array/paleblue</item>
+        <item>@array/airplanewindow</item>
+        <item>@array/arctic</item>
+        <item>@array/aquarium</item>
+        <item>@array/swimmingpool</item>
+        <item>@array/bacterium</item>
+        <item>@array/tokyo</item>
+        <item>@array/disco</item>
+        <item>@array/blueultrasonic</item>
+        <item>@array/geode</item>
+        <item>@array/sepia</item>
+        <item>@array/calypso</item>
+        <item>@array/storm</item>
+        <item>@array/gotham</item>
+        <item>@array/underworld</item>
+        <item>@array/orpheus</item>
+        <item>@array/shadowcliffs</item>
+        <item>@array/backstage</item>
+        <item>@array/gold</item>
+        <item>@array/ember</item>
+        <item>@array/tangerine</item>
+        <item>@array/sunflower</item>
+    </array>
+    
+    
+    <array name="jacobsladder">
+        <item>#ffffffed</item>
+        
+        
+		<item>#ffa6a69d</item>
+		<item>#ff868677</item>
+		<item>#ff96978c</item>
+		<item>#ff83837b</item>
+		<item>#ffdddfcd</item>
+		
+		<item>#ff706262</item>
+		<item>#ff555453</item>
+		<item>#ff5e5353</item>
+		<item>#ff4f4848</item>
+		<item>#ff9ea298</item>
+		
+		<item>#ff576464</item>
+		<item>#ff4b5454</item>
+		<item>#ff515c5d</item>
+		<item>#ff4a5455</item>
+		<item>#ffa6b4b2</item>
+		
+		<item>#ff696969</item>
+		<item>#ff555553</item>
+		<item>#ff5d5c5c</item>
+		<item>#ff505050</item>
+		<item>#ff98a2a1</item>
+		
+		
+		<item>#b7e5f0ff</item>
+		<item>#b7dae6ff</item>
+		<item>#bcdbe6cd</item>
+		<item>#9fdbcfee</item>
+		<item>#e6d7cfde</item>
+		<item>#e6fdfde3</item>
+		<item>#a3e2e1d9</item>
+		
+		<item>#00000001</item>
+    </array>
+    
+    <array name="marshmallow">
+        <item>#fffce8a5</item>
+        
+        
+		<item>#ffffcdb5</item>
+		<item>#ffffc5b0</item>
+		<item>#ffd1a389</item>
+		<item>#ffffceb6</item>
+		<item>#ffffa759</item>
+		
+		<item>#ffffcdb5</item>
+		<item>#ffffc5b0</item>
+		<item>#fffcc5a8</item>
+		<item>#ffffceb6</item>
+		<item>#ffff9b59</item>
+		
+		<item>#ffffdcb5</item>
+		<item>#ffffc5b0</item>
+		<item>#fffcc5a8</item>
+		<item>#ffffceb6</item>
+		<item>#ffffb471</item>
+		
+		<item>#ffff864a</item>
+		<item>#ffffc5b0</item>
+		<item>#fffcc5a8</item>
+		<item>#ffffceb6</item>
+		<item>#ffffa759</item>
+		
+		
+		<item>#9df36835</item>
+		<item>#acf8743f</item>
+		<item>#a6f65b2a</item>
+		<item>#8bfe653a</item>
+		<item>#7efe6c48</item>
+		<item>#def9ff00</item>
+		<item>#b7ff8669</item>
+		
+		<item>#00000001</item>
+    </array>
+    
+    <array name="bananas">
+        <item>#ff180d01</item>
+        
+        
+		<item>#ffbcb900</item>
+		<item>#ff899b00</item>
+		<item>#ffc1bc00</item>
+		<item>#ff558300</item>
+		<item>#ffeaf23b</item>
+		
+		<item>#fffffb00</item>
+		<item>#ffe0fd00</item>
+		<item>#fffbf501</item>
+		<item>#ff7dc000</item>
+		<item>#ffc3bc03</item>
+		
+		<item>#fff3ef02</item>
+		<item>#ffcce700</item>
+		<item>#ffc1bc00</item>
+		<item>#ff94e301</item>
+		<item>#fffff741</item>
+		
+		<item>#ffbebc0f</item>
+		<item>#ffa1b509</item>
+		<item>#ff96db25</item>
+		<item>#ff82a40a</item>
+		<item>#fff8f256</item>
+		
+		
+		<item>#f6ffc500</item>
+		<item>#f6ffbc00</item>
+		<item>#fadaa206</item>
+		<item>#efe5cf04</item>
+		<item>#baadf900</item>
+		<item>#68ffe11a</item>
+		<item>#d7d3d523</item>
+		
+		<item>#00000001</item>
+    </array>
+    
+    <array name="fernlight">
+        <item>#ff002613</item>
+        
+        
+		<item>#ff28ff50</item>
+		<item>#ff2bff46</item>
+		<item>#ff19ff51</item>
+		<item>#ff3aff28</item>
+		<item>#ffcaff05</item>
+		
+		<item>#ff3fff28</item>
+		<item>#ff0fd329</item>
+		<item>#ff03ef07</item>
+		<item>#ff3aff28</item>
+		<item>#ffd5ff1f</item>
+		
+		<item>#ff05ffd8</item>
+		<item>#ff12ff7c</item>
+		<item>#ff07ff83</item>
+		<item>#ff0eff37</item>
+		<item>#ff49ff00</item>
+		
+		<item>#ff02961e</item>
+		<item>#ff04a218</item>
+		<item>#ff02ab2b</item>
+		<item>#ff0fb100</item>
+		<item>#ffa9ff22</item>
+		
+		
+		<item>#9f009d35</item>
+		<item>#a8009737</item>
+		<item>#a1008a17</item>
+		<item>#9f009d35</item>
+		<item>#ce16ac00</item>
+		<item>#fcb2ff00</item>
+		<item>#a690dd00</item>
+		
+		<item>#00000001</item>
+    </array>
+    
+    <array name="emeraldforest">
+        <item>#ff081004</item>
+		
+		
+		<item>#ffd4f2e6</item>
+		<item>#ff005049</item>
+		<item>#ff0f9595</item>
+		<item>#ffe6f8ec</item>
+		<item>#ff069e2b</item>
+		
+		<item>#ff002f1c</item>
+		<item>#ff058958</item>
+		<item>#ff002416</item>
+		<item>#ff27ff65</item>
+		<item>#ff36c800</item>
+		
+		<item>#ff002f1c</item>
+		<item>#ff01110b</item>
+		<item>#ff002410</item>
+		<item>#ff010e43</item>
+		<item>#ff098200</item>
+		
+		<item>#ff008b53</item>
+		<item>#ff86ffd2</item>
+		<item>#ff005d42</item>
+		<item>#ffdff1e4</item>
+		<item>#ff307800</item>
+		
+		
+		<item>#ba027865</item>
+		<item>#c320623d</item>
+		<item>#cb137341</item>
+		<item>#c5165437</item>
+		<item>#8c00361a</item>
+		<item>#830ed2bd</item>
+		<item>#492e9200</item>
+		
+		<item>#00000000</item>
+    </array>
+    
+    <array name="limejello">
+        <item>#ff282800</item>
+        
+        
+		<item>#ff7cfb3f</item>
+		<item>#ffa5ff3d</item>
+		<item>#ff8cff3e</item>
+		<item>#ff8bff3c</item>
+		<item>#ffb8ff14</item>
+		
+		<item>#ff7cfb3f</item>
+		<item>#ffa5ff3d</item>
+		<item>#ff8cff3e</item>
+		<item>#ff8bff3c</item>
+		<item>#ffb8ff14</item>
+		
+		<item>#ff7cfb3f</item>
+		<item>#ffa5ff3d</item>
+		<item>#ff8cff3e</item>
+		<item>#ff8bff3c</item>
+		<item>#ffb8ff14</item>
+		
+		<item>#ff7cfb3f</item>
+		<item>#ffa5ff3d</item>
+		<item>#ff8cff3e</item>
+		<item>#ff8bff3c</item>
+		<item>#ffb8ff14</item>
+		
+		
+		<item>#994c9100</item>
+		<item>#9b71e500</item>
+		<item>#a18eff00</item>
+		<item>#826ed900</item>
+		<item>#71395f00</item>
+		<item>#70dce400</item>
+		<item>#b3afe400</item>
+		
+		<item>#00000001</item>
+    </array>
+    
+    <array name="limecream">
+        <item>#ffafddd1</item>
+        
+        
+		<item>#ff3fbc00</item>
+		<item>#ff259b00</item>
+		<item>#ff80c100</item>
+		<item>#ff278300</item>
+		<item>#ff56ff47</item>
+		
+		<item>#ff6ebc00</item>
+		<item>#ff7a9b00</item>
+		<item>#ff6ac100</item>
+		<item>#ff008326</item>
+		<item>#ff56ff47</item>
+		
+		<item>#ff6ebc00</item>
+		<item>#ff7a9b00</item>
+		<item>#ff6ac100</item>
+		<item>#ff838100</item>
+		<item>#ff5dfa34</item>
+		
+		<item>#ff63a603</item>
+		<item>#ff8cb103</item>
+		<item>#ff5fac02</item>
+		<item>#ff9a9804</item>
+		<item>#ff8deb10</item>
+		
+		
+		<item>#f600ff3f</item>
+		<item>#f600ff3a</item>
+		<item>#fa08da11</item>
+		<item>#ef09f323</item>
+		<item>#baf8ff00</item>
+		<item>#682aff33</item>
+		<item>#d77afe49</item>
+		
+		<item>#00000001</item>
+    </array>
+    
+    <array name="paleblue">
+        <item>#ff00073f</item>
+        
+        
+		<item>#ff012b88</item>
+		<item>#ff063670</item>
+		<item>#ff002c7c</item>
+		<item>#ff053178</item>
+		<item>#ff03378f</item>
+		
+		<item>#ff002e74</item>
+		<item>#ff04257c</item>
+		<item>#ff002d7c</item>
+		<item>#ff001a51</item>
+		<item>#ff0835a7</item>
+		
+		<item>#ff111282</item>
+		<item>#ff0c2981</item>
+		<item>#ff002c7c</item>
+		<item>#ff053178</item>
+		<item>#ff03378f</item>
+		
+		<item>#ff060050</item>
+		<item>#ff0c2981</item>
+		<item>#ff01024b</item>
+		<item>#ff031191</item>
+		<item>#ff02277f</item>
+		
+		
+		<item>#a80475bd</item>
+		<item>#99006fb4</item>
+		<item>#a8016abb</item>
+		<item>#a40378c2</item>
+		<item>#54065cd3</item>
+		<item>#1a00372d</item>
+		<item>#4d004aae</item>
+		
+		<item>#00000001</item>
+    </array>
+    
+    <array name="airplanewindow">
+        <item>#ff55c4ec</item>
+        
+        
+		<item>#fffffefe</item>
+		<item>#fff0eeee</item>
+		<item>#fff9f9e4</item>
+		<item>#ffffffff</item>
+		<item>#ffecf2fb</item>
+		
+		<item>#fff9ffff</item>
+		<item>#fffdf7f7</item>
+		<item>#fffff8f8</item>
+		<item>#ffd0e0f5</item>
+		<item>#fff1fbf0</item>
+		
+		<item>#ffffffff</item>
+		<item>#fffff9f9</item>
+		<item>#ffffffff</item>
+		<item>#ffc4d7f4</item>
+		<item>#fff9fdf2</item>
+		
+		<item>#fffafafa</item>
+		<item>#ffffffff</item>
+		<item>#fffcfce7</item>
+		<item>#ffc3dff6</item>
+		<item>#fff2f9ff</item>
+		
+		
+		<item>#020d0d0d</item>
+		<item>#65d2d9b9</item>
+		<item>#83c3c2a9</item>
+		<item>#000f0f0f</item>
+		<item>#b355c0f7</item>
+		<item>#3f69eea8</item>
+		<item>#73e3f8fd</item>
+		
+		<item>#00000001</item>
+    </array>
+    
+    <array name="arctic">
+        <item>#ff020f20</item>
+		
+		
+		<item>#ffdaedfc</item>
+		<item>#ff7fdeff</item>
+		<item>#ff3baec6</item>
+		<item>#ffdbf3fb</item>
+		<item>#ff00d2f3</item>
+		
+		<item>#ffd7edfe</item>
+		<item>#ff11b6ee</item>
+		<item>#ffdbeefb</item>
+		<item>#ff2fa8d2</item>
+		<item>#ff06bdd9</item>
+		
+		<item>#ff5dacef</item>
+		<item>#ffe1f8ff</item>
+		<item>#ffd6eefd</item>
+		<item>#ff0c7ea6</item>
+		<item>#ff38c4da</item>
+		
+		<item>#ff5dacef</item>
+		<item>#ffd7f4fd</item>
+		<item>#ff207ebf</item>
+		<item>#ffe4f7fd</item>
+		<item>#ff2ceef8</item>
+		
+		
+		<item>#7106acf5</item>
+		<item>#6e1178b5</item>
+		<item>#73187ac6</item>
+		<item>#801691f4</item>
+		<item>#990576a6</item>
+		<item>#d700ffca</item>
+		<item>#d609a3d4</item>
+		
+		<item>#00000001</item>
+    </array>
+    
+    <array name="aquarium">
+        <item>#ff5bfff9</item>
+        
+        
+        <item>#ff22b1f1</item>
+        <item>#ff20d1ff</item>
+        <item>#ff00a0fd</item>
+        <item>#ff65eaff</item>
+        <item>#ff00ffb5</item>
+        
+        <item>#ff22b1f1</item>
+        <item>#ff20d1ff</item>
+        <item>#ff00a0fd</item>
+        <item>#ff65eaff</item>
+        <item>#ff00ffb5</item>
+        
+        <item>#ff22b1f1</item>
+        <item>#ff20d1ff</item>
+        <item>#ff00a0fd</item>
+        <item>#ff65eaff</item>
+        <item>#ff00ffb5</item>
+        
+        <item>#ff22b1f1</item>
+        <item>#ff20d1ff</item>
+        <item>#ff00a0fd</item>
+        <item>#ff65eaff</item>
+        <item>#ff00ffb5</item>
+        
+        
+        <item>#a800e2ff</item>
+        <item>#9d2d36d1</item>
+        <item>#920006ff</item>
+        <item>#ac007cff</item>
+        <item>#ff0736ff</item>
+        <item>#6633ff7f</item>
+        <item>#be3fb7ff</item>
+		
+		<item>#00000001</item>
+    </array>
+     
+    <array name="swimmingpool">
+        <item>#ff001e3d</item>
+        
+        
+		<item>#ff00c3f4</item>
+		<item>#ff00bcf0</item>
+		<item>#ff00d6ff</item>
+		<item>#ff00baef</item>
+		<item>#ff13cddb</item>
+		
+		<item>#ff00c3f4</item>
+		<item>#ff00c8ff</item>
+		<item>#ff00cbf3</item>
+		<item>#ff00baef</item>
+		<item>#ff0cd0d3</item>
+		
+		<item>#ff00c3f4</item>
+		<item>#ff00bcf0</item>
+		<item>#ff00cbf3</item>
+		<item>#ff00baef</item>
+		<item>#ff39ccd7</item>
+		
+		<item>#ff00c3f4</item>
+		<item>#ff00bcf0</item>
+		<item>#ff00cbf3</item>
+		<item>#ff00baef</item>
+		<item>#ff30e5f3</item>
+		
+		
+		<item>#b7cce2ff</item>
+		<item>#b7bad1ff</item>
+		<item>#ba01818e</item>
+		<item>#9fb7daf2</item>
+		<item>#7c51c5e5</item>
+		<item>#664dd482</item>
+		<item>#270a8ac8</item>
+		
+		<item>#00000001</item>
+    </array>
+    
+    <array name="bacterium">
+        <item>#ff050026</item>
+        
+        
+		<item>#ff0f00ff</item>
+		<item>#ff7616ff</item>
+		<item>#ff0e00de</item>
+		<item>#ff3700ff</item>
+		<item>#ff5e0061</item>
+		
+		<item>#ff0f00ff</item>
+		<item>#ff1f00ff</item>
+		<item>#ff1100ff</item>
+		<item>#ff3700ff</item>
+		<item>#ff290060</item>
+		
+		<item>#ff0f00ff</item>
+		<item>#ff6500ff</item>
+		<item>#ff1100ff</item>
+		<item>#ff3700ff</item>
+		<item>#ff220083</item>
+		
+		<item>#ff0f00ff</item>
+		<item>#ff1f00ff</item>
+		<item>#ff1100ff</item>
+		<item>#ff3700ff</item>
+		<item>#ff79007e</item>
+		
+		
+		<item>#b10727ee</item>
+		<item>#b10c12e0</item>
+		<item>#c90d08e1</item>
+		<item>#c30910e9</item>
+		<item>#fa00050f</item>
+		<item>#9fff0000</item>
+		<item>#3d0d0283</item>
+		
+		<item>#00000001</item>
+    </array>
+    
+    <array name="tokyo">
+        <item>#ff0f0b48</item>
+        
+        
+		<item>#ff22b1f1</item>
+		<item>#fff80625</item>
+		<item>#ff00a0fd</item>
+		<item>#ff65eaff</item>
+		<item>#fffd00ff</item>
+		
+		<item>#ff22b1f1</item>
+		<item>#ff20d1ff</item>
+		<item>#ff00a0fd</item>
+		<item>#ff65eaff</item>
+		<item>#ff00ffb5</item>
+		
+		<item>#ff22b1f1</item>
+		<item>#ffe40f0f</item>
+		<item>#ff00a0fd</item>
+		<item>#ff65eaff</item>
+		<item>#fff70f0f</item>
+		
+		<item>#ff22b1f1</item>
+		<item>#ff20d1ff</item>
+		<item>#ff00a0fd</item>
+		<item>#ff65eaff</item>
+		<item>#ff00ffb5</item>
+		
+		
+		<item>#a8a6eff8</item>
+		<item>#9d1621d9</item>
+		<item>#920006ff</item>
+		<item>#ac007cff</item>
+		<item>#ff1b16de</item>
+		<item>#6633ff7f</item>
+		<item>#5500daf2</item>
+		
+		<item>#00000000</item>	
+    </array>
+     
+    <array name="disco">
+        <item>#ffeaff54</item>
+        
+        
+		<item>#ffe400d4</item>
+		<item>#ffdf1500</item>
+		<item>#ffdfb700</item>
+		<item>#ffb100dd</item>
+		<item>#ffff9d25</item>
+		
+		<item>#ffe400d4</item>
+		<item>#ffc200df</item>
+		<item>#ffdf00c6</item>
+		<item>#ffb100dd</item>
+		<item>#ffff6125</item>
+		
+		<item>#ffbe00e4</item>
+		<item>#ff8f00a5</item>
+		<item>#ffdf00c6</item>
+		<item>#ffb7003d</item>
+		<item>#ffff6125</item>
+		
+		<item>#ffe400d4</item>
+		<item>#ffc200df</item>
+		<item>#ffdf00c6</item>
+		<item>#ffb100dd</item>
+		<item>#ffff8700</item>
+		
+		
+		<item>#ff809a00</item>
+		<item>#ff7700ff</item>
+		<item>#ffcc00b4</item>
+		<item>#ffc24c0e</item>
+		<item>#edde00a2</item>
+		<item>#5dfdff00</item>
+		<item>#46ffc500</item>
+		
+		<item>#00000001</item>
+    </array>
+    
+    <array name="blueultrasonic">
+        <item>#ff05002d</item>
+        
+        
+		<item>#ff3000ff</item>
+		<item>#ff4400ff</item>
+		<item>#ff3b00ff</item>
+		<item>#ff5400ff</item>
+		<item>#ff1119e3</item>
+		
+		<item>#ff3000ff</item>
+		<item>#ff1c1dff</item>
+		<item>#ff3b00ff</item>
+		<item>#ff5400ff</item>
+		<item>#ff000ef9</item>
+		
+		<item>#ff007fff</item>
+		<item>#ff4400ff</item>
+		<item>#ff3b00ff</item>
+		<item>#ff5400ff</item>
+		<item>#ff000ef9</item>
+		
+		<item>#ff3000ff</item>
+		<item>#ff4400ff</item>
+		<item>#ff3b00ff</item>
+		<item>#ff5400ff</item>
+		<item>#ff000ef9</item>
+		
+		
+		<item>#33a418e4</item>
+		<item>#46001dc1</item>
+		<item>#524f00ad</item>
+		<item>#510e027a</item>
+		<item>#33004261</item>
+		<item>#44011fc6</item>
+		<item>#900800ff</item>
+		
+		<item>#00000001</item>
+    </array>
+    
+    <array name="geode">
+        <item>#ff060017</item>
+        
+        
+		<item>#ffb8bcdb</item>
+		<item>#ff5f0d0d</item>
+		<item>#ff240091</item>
+		<item>#ff8b7bab</item>
+		<item>#ff7107c5</item>
+		
+		<item>#ff2a074d</item>
+		<item>#ff631ee6</item>
+		<item>#ff1a055b</item>
+		<item>#ff2a008b</item>
+		<item>#ff2f022d</item>
+		
+		<item>#ff2a074d</item>
+		<item>#ffa91566</item>
+		<item>#ff1a055b</item>
+		<item>#ff061c5a</item>
+		<item>#ffd193d8</item>
+		
+		<item>#ff2a074d</item>
+		<item>#ff0d3339</item>
+		<item>#ff1a055b</item>
+		<item>#ff72c4d9</item>
+		<item>#ff100011</item>
+		
+		
+		<item>#f1e100e6</item>
+		<item>#f37e00b3</item>
+		<item>#f1570000</item>
+		<item>#f10a0311</item>
+		<item>#d73d0012</item>
+		<item>#d32106e6</item>
+		<item>#d89f0051</item>
+		
+		<item>#00000000</item>
+    </array>
+    
+    <array name="sepia">
+		<item>#ff000000</item>
+		
+		
+		<item>#ff000000</item>
+		<item>#ff000000</item>
+		<item>#ff2d2c26</item>
+		<item>#ff000000</item>
+		<item>#ff000000</item>
+		
+		<item>#ffc9c9c9</item>
+		<item>#ff7a827f</item>
+		<item>#ffd6d6d6</item>
+		<item>#ff9aa4a5</item>
+		<item>#ff525252</item>
+		
+		<item>#fffbf9f9</item>
+		<item>#ffcdcdcd</item>
+		<item>#ffd9d6d6</item>
+		<item>#ffffffff</item>
+		<item>#ff707070</item>
+		
+		<item>#ff000000</item>
+		<item>#ff000000</item>
+		<item>#ff403f39</item>
+		<item>#ff000000</item>
+		<item>#ff000000</item>
+		
+		
+		<item>#ff0d0d0d</item>
+		<item>#f3000000</item>
+		<item>#f6000000</item>
+		<item>#ff000000</item>
+		<item>#ff000000</item>
+		<item>#b0cdbbbb</item>
+		<item>#ff000000</item>
+		
+		<item>#00000001</item>
+    </array>
+    
+    <array name="calypso">
+		<item>#ff001b98</item>
+		
+		
+		<item>#ff000000</item>
+		<item>#ff000000</item>
+		<item>#ff000000</item>
+		<item>#ff000000</item>
+		<item>#ff000000</item>
+		
+		<item>#ff121414</item>
+		<item>#ff000000</item>
+		<item>#ff000000</item>
+		<item>#ff000000</item>
+		<item>#ff000000</item>
+		
+		<item>#ff000000</item>
+		<item>#ff000000</item>
+		<item>#ff000000</item>
+		<item>#ff000000</item>
+		<item>#ff000000</item>
+		
+		<item>#ff000000</item>
+		<item>#ff000000</item>
+		<item>#ff000000</item>
+		<item>#ff000000</item>
+		<item>#ff000000</item>
+		
+		
+		<item>#ff0d0d0d</item>
+		<item>#f3020202</item>
+		<item>#f6000000</item>
+		<item>#ed0f0f0f</item>
+		<item>#ff000013</item>
+		<item>#ff000000</item>
+		<item>#1b260237</item>
+		
+		<item>#00000001</item>
+    </array>
+    
+    <array name="storm">
+		<item>#ff000000</item>
+		
+		
+		<item>#ff000000</item>
+		<item>#ff000000</item>
+		<item>#ff80dcff</item>
+		<item>#ff000000</item>
+		<item>#ff000000</item>
+		
+		<item>#ff121414</item>
+		<item>#ff202020</item>
+		<item>#ff00e7ee</item>
+		<item>#ff303333</item>
+		<item>#ff090e0f</item>
+		
+		<item>#ff646a6a</item>
+		<item>#ff000000</item>
+		<item>#ff93f2ff</item>
+		<item>#ff262727</item>
+		<item>#ff000000</item>
+		
+		<item>#ff000000</item>
+		<item>#ff000000</item>
+		<item>#ff000000</item>
+		<item>#ff000000</item>
+		<item>#ff000000</item>
+		
+		
+		<item>#fb001c0a</item>
+		<item>#f71a071a</item>
+		<item>#ff424242</item>
+		<item>#ff0f0f0f</item>
+		<item>#ff000000</item>
+		<item>#22003b01</item>
+		<item>#11105d42</item>
+		
+		<item>#00000000</item>
+    </array>
+    
+    <array name="gotham">
+        <item>#ff0a090a</item>
+        
+        
+		<item>#ff9a9791</item>
+		<item>#ff5e5e56</item>
+		<item>#ff68716d</item>
+		<item>#ff88887e</item>
+		<item>#ff212018</item>
+		
+		<item>#ff9a9791</item>
+		<item>#ff5e5e56</item>
+		<item>#ff717168</item>
+		<item>#ff84846d</item>
+		<item>#ff212018</item>
+		
+		<item>#ffd7d2c6</item>
+		<item>#ff595e56</item>
+		<item>#ff717168</item>
+		<item>#ff20222b</item>
+		<item>#ff182121</item>
+		
+		<item>#ff899782</item>
+		<item>#ff000000</item>
+		<item>#ff58726e</item>
+		<item>#ff88887e</item>
+		<item>#ff212018</item>
+		
+		
+		<item>#ff0d0d0d</item>
+		<item>#f3020202</item>
+		<item>#f6000000</item>
+		<item>#ed0f0f0f</item>
+		<item>#ff000000</item>
+		<item>#ff0d0907</item>
+		<item>#2558584c</item>
+		
+		<item>#00000001</item>
+    </array>
+    
+    <array name="underworld">
+        <item>#ff1b1d1c</item>
+        
+        
+		<item>#ff695151</item>
+		<item>#ff654949</item>
+		<item>#ff5b4731</item>
+		<item>#ff634b4b</item>
+		<item>#ff504d3e</item>
+		
+		<item>#ff383f37</item>
+		<item>#ff353c34</item>
+		<item>#ff40473e</item>
+		<item>#ff333c32</item>
+		<item>#ff635f57</item>
+		
+		<item>#ff3a3737</item>
+		<item>#ff3d3b3b</item>
+		<item>#ff3f3e3e</item>
+		<item>#ff393737</item>
+		<item>#ff666561</item>
+		
+		<item>#ff595151</item>
+		<item>#ff6e6363</item>
+		<item>#ff696161</item>
+		<item>#ff6c5f5f</item>
+		<item>#ff787363</item>
+		
+		
+		<item>#b7e6be82</item>
+		<item>#b7f5be8c</item>
+		<item>#bcebcda5</item>
+		<item>#9ffab180</item>
+		<item>#e79b7d73</item>
+		<item>#5f6f461c</item>
+		<item>#8f918687</item>
+		
+		
+		<item>#00000001</item>
+    </array>
+    
+    <array name="orpheus">
+        <item>#00000000</item>
+        
+        
+		<item>#ff221900</item>
+		<item>#ff3e0e00</item>
+		<item>#ff471001</item>
+		<item>#ff000000</item>
+		<item>#ff000000</item>
+		
+		<item>#ff000000</item>
+		<item>#ff310e00</item>
+		<item>#ff000000</item>
+		<item>#ff230000</item>
+		<item>#ff000000</item>
+		
+		<item>#ff0e1d05</item>
+		<item>#ff000000</item>
+		<item>#ff000000</item>
+		<item>#ff190d00</item>
+		<item>#ff000000</item>
+		
+		<item>#ff1a0f0b</item>
+		<item>#ff000000</item>
+		<item>#ff160909</item>
+		<item>#ff000000</item>
+		<item>#ff000000</item>
+		
+		
+		<item>#00000000</item>
+		<item>#00000000</item>
+		<item>#ff000000</item>
+		<item>#00000000</item>
+		<item>#ff000000</item>
+		<item>#5a1e0027</item>
+		<item>#29ff1600</item>
+		
+		<item>#00000000</item>
+    </array>
+    
+    <array name="shadowcliffs">
+        <item>#ffe8f9f9</item>
+        
+        
+		<item>#ff737d7e</item>
+		<item>#ff383b3b</item>
+		<item>#ff4a4e4e</item>
+		<item>#ff353838</item>
+		<item>#ff696759</item>
+		
+		<item>#ff737d7e</item>
+		<item>#ff383b3b</item>
+		<item>#ff4a4e4e</item>
+		<item>#ff353838</item>
+		<item>#ff737368</item>
+		
+		<item>#ff737d7e</item>
+		<item>#ff383b3b</item>
+		<item>#ff4a4e4e</item>
+		<item>#ff353838</item>
+		<item>#ff737368</item>
+		
+		<item>#ff737d7e</item>
+		<item>#ff383b3b</item>
+		<item>#ff4a4e4e</item>
+		<item>#ff353838</item>
+		<item>#ff605a4c</item>
+		
+		
+		<item>#f662492a</item>
+		<item>#f84e4e42</item>
+		<item>#ebd0d0bf</item>
+		<item>#f6d1bc96</item>
+		<item>#f8cbcbc5</item>
+		<item>#f6bfddd8</item>
+		<item>#99959999</item>
+		
+		<item>#00000001</item>
+    </array>
+    
+    <array name="backstage">
+        <item>#ff0a090a</item>
+        
+        
+		<item>#ff000000</item>
+		<item>#ff000000</item>
+		<item>#ff000000</item>
+		<item>#ff000000</item>
+		<item>#ff000000</item>
+		
+		<item>#ff000000</item>
+		<item>#ff000000</item>
+		<item>#ff000000</item>
+		<item>#ff000000</item>
+		<item>#ff000000</item>
+		
+		<item>#ff000000</item>
+		<item>#ff000000</item>
+		<item>#ff000000</item>
+		<item>#ff000000</item>
+		<item>#ff000000</item>
+		
+		<item>#ff000000</item>
+		<item>#ff000000</item>
+		<item>#ff000000</item>
+		<item>#ff000000</item>
+		<item>#ff000000</item>
+		
+		
+		<item>#ff0d0d0d</item>
+		<item>#f3020202</item>
+		<item>#f6000000</item>
+		<item>#ed0f0f0f</item>
+		<item>#ff000000</item>
+		<item>#ff0d0907</item>
+		<item>#2558584c</item>
+		
+		<item>#00000001</item>
+    </array>
+    
+    <array name="gold">
+        <item>#ff171600</item>
+        
+        
+		<item>#fff9efc9</item>
+		<item>#fff4c32e</item>
+		<item>#fff2c82b</item>
+		<item>#fff3dfca</item>
+		<item>#ffe1c716</item>
+		
+		<item>#fff5f0de</item>
+		<item>#fff4c32e</item>
+		<item>#fff2eacc</item>
+		<item>#ffefc62d</item>
+		<item>#ffcaa419</item>
+		
+		<item>#fffdc01b</item>
+		<item>#ffd3f986</item>
+		<item>#fff5eed4</item>
+		<item>#ffefc62d</item>
+		<item>#ffdbbd23</item>
+		
+		<item>#ffc8c315</item>
+		<item>#fff8f0d5</item>
+		<item>#fff2c82b</item>
+		<item>#fff2e7cd</item>
+		<item>#ffebc91c</item>
+		
+		
+		<item>#6a473600</item>
+		<item>#afd48400</item>
+		<item>#5b674704</item>
+		<item>#98563502</item>
+		<item>#6a7d6101</item>
+		<item>#82f3dd04</item>
+		<item>#4b928c03</item>
+		
+		<item>#00000001</item>
+    </array>
+    
+    <array name="ember">
+        <item>#ff330000</item>
+        
+        
+		<item>#fffa7805</item>
+		<item>#fffa7805</item>
+		<item>#fffa7805</item>
+		<item>#fffa7805</item>
+		<item>#ffe6961d</item>
+		
+		<item>#ff321405</item>
+		<item>#ff321405</item>
+		<item>#ff321405</item>
+		<item>#ff321405</item>
+		<item>#ff140a09</item>
+		
+		<item>#ff321405</item>
+		<item>#ff321405</item>
+		<item>#ff321405</item>
+		<item>#ff321405</item>
+		<item>#ff140a09</item>
+		
+		<item>#fffa7805</item>
+		<item>#fffa7805</item>
+		<item>#fffa7805</item>
+		<item>#fffa7805</item>
+		<item>#ffe6961d</item>
+		
+		
+		<item>#b7fa8c00</item>
+		<item>#b7140a00</item>
+		<item>#bc190f00</item>
+		<item>#9ffa9300</item>
+		<item>#a7ff0000</item>
+		<item>#8f643200</item>
+		<item>#bf9b4600</item>
+		
+		<item>#00000001</item>
+    </array>
+    
+    <array name="tangerine">
+		<item>#ff00373d</item>
+		
+		
+		<item>#ffffa500</item>
+		<item>#ffff8000</item>
+		<item>#ffff9e03</item>
+		<item>#ffffba00</item>
+		<item>#fff8ff00</item>
+		
+		<item>#ffffa500</item>
+		<item>#ffd56500</item>
+		<item>#ffff9e03</item>
+		<item>#ffffba00</item>
+		<item>#ffffe945</item>
+		
+		<item>#ffffa500</item>
+		<item>#ffd57500</item>
+		<item>#ffff9e03</item>
+		<item>#ffffba00</item>
+		<item>#ffffe633</item>
+		
+		<item>#ffffa500</item>
+		<item>#ffff8d00</item>
+		<item>#ffff9e03</item>
+		<item>#ffffba00</item>
+		<item>#ffffe631</item>
+		
+		
+		<item>#9dff4b00</item>
+		<item>#aaff6a00</item>
+		<item>#acff5d00</item>
+		<item>#a6ff6100</item>
+		<item>#ffe66e00</item>
+		<item>#ceedfe1e</item>
+		<item>#fff8a900</item>
+		
+		<item>#00000001</item>
+    </array>
+    
+    
+    <array name="sunflower">
+		<item>#ff005980</item>
+		
+		
+		<item>#fff1cb16</item>
+		<item>#fffbd200</item>
+		<item>#fff4de00</item>
+		<item>#fff0c72b</item>
+		<item>#ffebd50d</item>
+		
+		<item>#ffecab46</item>
+		<item>#fff4a700</item>
+		<item>#fff0b72c</item>
+		<item>#fff0ad2c</item>
+		<item>#ffc0d122</item>
+		
+		<item>#ffecab46</item>
+		<item>#fff0b22c</item>
+		<item>#fff0b72c</item>
+		<item>#fff0ad2c</item>
+		<item>#ffc5da00</item>
+		
+		<item>#fff0a019</item>
+		<item>#fff47609</item>
+		<item>#ffeb8e02</item>
+		<item>#ffeea009</item>
+		<item>#ffc7db00</item>
+		
+		
+		<item>#d5f08989</item>
+		<item>#b3f08d8d</item>
+		<item>#d6ee9990</item>
+		<item>#ccff9772</item>
+		<item>#c5fa970c</item>
+		<item>#8dccf46f</item>
+		<item>#5cfffe58</item>
+		
+		<item>#00000001</item>
+    </array>
+
+</resources>

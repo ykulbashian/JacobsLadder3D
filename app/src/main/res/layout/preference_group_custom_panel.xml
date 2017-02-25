@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/custom_colors_wrapper"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    
+    <FrameLayout 
+        android:id="@+id/custom_theme_composer_header"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    
+    <com.mycardboarddreams.jacobsladder.view.RolloutView
+        android:id="@+id/dropdown_wrapper"
+        android:visibility="gone"
+	    android:layout_below="@id/custom_theme_composer_header"
+	    android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    	android:paddingBottom="20dp">
+    
+		<LinearLayout
+			android:id="@+id/main_dropdown_container"
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+			<View
+				android:background="@color/list_divider_grey"
+				android:layout_width="match_parent"
+				android:layout_height="1px"/>
+
+			<LinearLayout
+				android:baselineAligned="false"
+				android:orientation="horizontal"
+				android:background="@color/background_faded_dark_grey"
+				android:gravity="right"
+				android:paddingTop="3dp"
+				android:paddingBottom="3dp"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content">
+
+				<FrameLayout
+					android:id="@+id/save_custom_theme_container"
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"/>
+
+			</LinearLayout>
+
+			<RelativeLayout
+				android:id="@+id/top_level_layout"
+				android:layout_width="match_parent"
+				android:layout_height="540dp"
+				android:padding="10dp">
+
+				<SurfaceView
+					android:layout_width="0px"
+					android:layout_height="0px"/>
+
+				<FrameLayout
+					android:id="@+id/custom_theme_wallpaper_surface"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent" />
+
+				<LinearLayout
+					android:orientation="vertical"
+					android:gravity="center"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent">
+
+					<Space android:layout_width="wrap_content"
+						android:layout_height="0dp"
+						android:layout_weight="9"/>
+
+					<FrameLayout
+						android:layout_width="50dp"
+						android:layout_height="50dp">
+
+						<FrameLayout
+							android:id="@+id/container_center_higher"
+							android:layout_width="match_parent"
+							android:layout_height="match_parent"/>
+
+						<ImageView
+							android:layout_gravity="center"
+							android:src="@drawable/lightbulb_light"
+							android:layout_width="20dp"
+							android:layout_height="20dp" />
+
+					</FrameLayout>
+
+					<Space android:layout_width="wrap_content"
+						android:layout_height="0dp"
+						android:layout_weight="1"/>
+
+					<FrameLayout
+						android:layout_width="90dp"
+						android:layout_height="90dp">
+
+						<FrameLayout
+							android:id="@+id/container_center"
+							android:layout_width="match_parent"
+							android:layout_height="match_parent"/>
+
+						<ImageView
+							android:layout_gravity="center"
+							android:src="@drawable/lightbulb_light"
+							android:layout_width="30dp"
+							android:layout_height="31dp" />
+
+					</FrameLayout>
+
+					<Space android:layout_width="wrap_content"
+						android:layout_height="0dp"
+						android:layout_weight="3"/>
+
+					<FrameLayout
+						android:layout_width="110dp"
+						android:layout_height="110dp"
+						android:layout_marginBottom="-40dp">
+
+						<FrameLayout
+							android:id="@+id/container_bottom_center"
+							android:layout_width="match_parent"
+							android:layout_height="match_parent"/>
+
+						<ImageView
+							android:layout_gravity="center"
+							android:src="@drawable/lightbulb_light"
+							android:layout_width="30dp"
+							android:layout_height="31dp" />
+
+					</FrameLayout>
+
+				</LinearLayout>
+
+				<!-- CORNER LIGHTS -->
+				<FrameLayout
+					android:layout_marginLeft="@dimen/corner_light_margin"
+					android:layout_marginTop="@dimen/corner_light_margin"
+					android:layout_alignParentLeft="true"
+					android:layout_alignParentTop="true"
+					android:layout_width="@dimen/corner_lights_width"
+					android:layout_height="@dimen/corner_lights_width">
+
+					<FrameLayout
+						android:id="@+id/container_top_left"
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"/>
+
+					<ImageView
+						android:layout_gravity="center"
+						android:src="@drawable/lightbulb_light"
+						android:layout_width="30dp"
+						android:layout_height="31dp" />
+
+				</FrameLayout>
+
+				<FrameLayout
+					android:layout_marginRight="@dimen/corner_light_margin"
+					android:layout_marginTop="@dimen/corner_light_margin"
+					android:layout_alignParentRight="true"
+					android:layout_alignParentTop="true"
+					android:layout_width="@dimen/corner_lights_width"
+					android:layout_height="@dimen/corner_lights_width">
+
+					<FrameLayout
+						android:id="@+id/container_top_right"
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"/>
+
+					<ImageView
+						android:layout_gravity="center"
+						android:src="@drawable/lightbulb_light"
+						android:layout_width="30dp"
+						android:layout_height="31dp" />
+
+				</FrameLayout>
+
+				<FrameLayout
+					android:layout_marginBottom="@dimen/corner_light_margin"
+					android:layout_marginLeft="@dimen/corner_light_margin"
+					android:layout_alignParentLeft="true"
+					android:layout_alignParentBottom="true"
+					android:layout_width="@dimen/corner_lights_width"
+					android:layout_height="@dimen/corner_lights_width">
+
+					<FrameLayout
+						android:id="@+id/container_bottom_left"
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"/>
+
+					<ImageView
+						android:layout_gravity="center"
+						android:src="@drawable/lightbulb_light"
+						android:layout_width="30dp"
+						android:layout_height="31dp" />
+
+				</FrameLayout>
+
+				<FrameLayout
+					android:layout_marginBottom="@dimen/corner_light_margin"
+					android:layout_marginRight="@dimen/corner_light_margin"
+					android:layout_alignParentRight="true"
+					android:layout_alignParentBottom="true"
+					android:layout_width="@dimen/corner_lights_width"
+					android:layout_height="@dimen/corner_lights_width">
+
+					<FrameLayout
+						android:id="@+id/container_bottom_right"
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"/>
+
+					<ImageView
+						android:layout_gravity="center"
+						android:src="@drawable/lightbulb_light"
+						android:layout_width="30dp"
+						android:layout_height="31dp" />
+
+				</FrameLayout>
+
+				<include
+					android:layout_marginTop="@dimen/corner_face_margin_top_bottom"
+					android:layout_marginLeft="@dimen/corner_face_margin_left_right"
+					layout="@layout/preference_group_custom_colors"
+					android:id="@+id/panel_faces_top_left"
+					android:layout_alignParentLeft="true"
+					android:layout_alignParentTop="true"
+					android:layout_width="@dimen/custom_color_face_group_width"
+					android:layout_height="@dimen/custom_color_face_group_width"/>
+
+				<include
+					android:layout_marginTop="@dimen/corner_face_margin_top_bottom"
+					android:layout_marginRight="@dimen/corner_face_margin_left_right"
+					layout="@layout/preference_group_custom_colors"
+					android:id="@+id/panel_faces_top_right"
+					android:layout_alignParentRight="true"
+					android:layout_alignParentTop="true"
+					android:layout_width="@dimen/custom_color_face_group_width"
+					android:layout_height="@dimen/custom_color_face_group_width"/>
+
+				<include
+					android:layout_marginBottom="@dimen/corner_face_margin_top_bottom"
+					android:layout_marginLeft="@dimen/corner_face_margin_left_right"
+					layout="@layout/preference_group_custom_colors"
+					android:id="@+id/panel_faces_bottom_left"
+					android:layout_alignParentLeft="true"
+					android:layout_alignParentBottom="true"
+					android:layout_width="@dimen/custom_color_face_group_width"
+					android:layout_height="@dimen/custom_color_face_group_width"/>
+
+				<include
+					android:layout_marginBottom="@dimen/corner_face_margin_top_bottom"
+					android:layout_marginRight="@dimen/corner_face_margin_left_right"
+					layout="@layout/preference_group_custom_colors"
+					android:id="@+id/panel_faces_bottom_right"
+					android:layout_alignParentBottom="true"
+					android:layout_alignParentRight="true"
+					android:layout_width="@dimen/custom_color_face_group_width"
+					android:layout_height="@dimen/custom_color_face_group_width"/>
+
+				<FrameLayout
+					tools:background="@drawable/shape_face_square"
+					android:id="@+id/container_center_background"
+					android:layout_centerVertical="true"
+					android:layout_alignParentLeft="true"
+					android:layout_width="120dp"
+					android:layout_height="70dp"/>
+
+				<TextView
+					android:text="@string/custom_background_color"
+					style="@style/shadowed_text"
+					android:gravity="center_horizontal"
+					android:layout_centerVertical="true"
+					android:layout_alignParentLeft="true"
+					android:layout_width="120dp"
+					android:layout_height="wrap_content"/>
+
+				<FrameLayout
+					android:id="@+id/container_background_checkbox"
+					android:layout_centerVertical="true"
+					android:layout_alignParentRight="true"
+					android:layout_margin="10dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"/>
+
+			</RelativeLayout>
+
+		</LinearLayout>
+	
+	</com.mycardboarddreams.jacobsladder.view.RolloutView>
+    
+</RelativeLayout>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:jacobsladder="http://schemas.android.com/apk/res-auto">
+
+    <com.mycardboarddreams.jacobsladder.preferences.TextListPopupPreference
+		android:title=""
+		android:dialogTitle="@string/help_dialog_title"
+		android:entryValues="@array/help_dialog_message"
+		android:entries="@array/help_dialog_message"
+		android:icon="@drawable/icon_help" />
+
+    <com.mycardboarddreams.jacobsladder.preferences.ThemeSelectPreference
+        android:title="@string/select_color_theme"
+        android:layout="@layout/preference_select_theme_view"
+		android:entries="@array/color_options_readable"
+		android:entryValues="@array/color_options_readable"
+        android:key="@string/key_select_theme" />
+
+
+     <com.mycardboarddreams.jacobsladder.preferences.custom.CustomColorsCategoryPreference
+         android:title=""
+         android:key="@string/key_custom_colors"
+         android:layout="@layout/preference_group_custom_panel">
+         
+		<com.mycardboarddreams.jacobsladder.preferences.DropDownHeaderPreference
+			android:icon="@drawable/custom_theme_icon"
+			android:widgetLayout="@layout/preference_create_custom_theme"
+			android:title="@string/custom_color_title"
+			android:key="@string/key_custom_colors_header" />
+
+         <net.margaritov.preference.colorpicker.ColorPickerPreference
+             android:title="@string/custom_background_color"
+             android:key="@string/key_custom_color_background"
+             hexValue="true"
+             type="rectangle"/>
+
+         <net.margaritov.preference.colorpicker.ColorPickerPreference
+             android:key="@string/key_custom_color_primary"
+             alphaSlider="true"
+             hexValue="true"
+             type="lightcircle"/>
+
+         <net.margaritov.preference.colorpicker.ColorPickerPreference
+             android:key="@string/key_custom_color_mid"
+             alphaSlider="true"
+             hexValue="true"
+             type="lightcircle"/>
+
+         <net.margaritov.preference.colorpicker.ColorPickerPreference
+             android:key="@string/key_custom_color_distant"
+             alphaSlider="true"
+             hexValue="true"
+             type="lightcircle"/>
+
+         <net.margaritov.preference.colorpicker.ColorPickerPreference
+             android:key="@string/key_custom_color_top_left"
+             alphaSlider="true"
+             hexValue="true"
+             type="lightcircle"/>
+
+         <net.margaritov.preference.colorpicker.ColorPickerPreference
+             android:key="@string/key_custom_color_top_right"
+             alphaSlider="true"
+             hexValue="true"
+             type="lightcircle"/>
+
+         <net.margaritov.preference.colorpicker.ColorPickerPreference
+             android:key="@string/key_custom_color_bottom_left"
+             alphaSlider="true"
+             hexValue="true"
+             type="lightcircle"/>
+
+         <net.margaritov.preference.colorpicker.ColorPickerPreference
+             android:key="@string/key_custom_color_bottom_right"
+             alphaSlider="true"
+             hexValue="true"
+             type="lightcircle"/>
+
+
+         <net.margaritov.preference.colorpicker.ColorPickerPreference
+             android:key="@string/key_custom_color_left_face_bl" hexValue="true"
+             type="rectangle"/>
+         <net.margaritov.preference.colorpicker.ColorPickerPreference
+             android:key="@string/key_custom_color_right_face_bl" hexValue="true"
+             type="rectangle"/>
+         <net.margaritov.preference.colorpicker.ColorPickerPreference
+             android:key="@string/key_custom_color_top_face_bl" hexValue="true"
+             type="rectangle"/>
+         <net.margaritov.preference.colorpicker.ColorPickerPreference
+             android:key="@string/key_custom_color_bottom_face_bl" hexValue="true"
+             type="rectangle"/>
+         <net.margaritov.preference.colorpicker.ColorPickerPreference
+             android:key="@string/key_custom_color_near_face_bl" hexValue="true"
+             type="rectangle"/>
+
+
+         <net.margaritov.preference.colorpicker.ColorPickerPreference
+             android:key="@string/key_custom_color_left_face_tl" hexValue="true"
+             type="rectangle"/>
+         <net.margaritov.preference.colorpicker.ColorPickerPreference
+             android:key="@string/key_custom_color_right_face_tl" hexValue="true"
+             type="rectangle"/>
+         <net.margaritov.preference.colorpicker.ColorPickerPreference
+             android:key="@string/key_custom_color_top_face_tl" hexValue="true"
+             type="rectangle"/>
+         <net.margaritov.preference.colorpicker.ColorPickerPreference
+             android:key="@string/key_custom_color_bottom_face_tl" hexValue="true"
+             type="rectangle"/>
+         <net.margaritov.preference.colorpicker.ColorPickerPreference
+             android:key="@string/key_custom_color_near_face_tl" hexValue="true"
+             type="rectangle"/>
+
+
+         <net.margaritov.preference.colorpicker.ColorPickerPreference
+             android:key="@string/key_custom_color_left_face_tr" hexValue="true"
+             type="rectangle"/>
+         <net.margaritov.preference.colorpicker.ColorPickerPreference
+             android:key="@string/key_custom_color_right_face_tr" hexValue="true"
+             type="rectangle"/>
+         <net.margaritov.preference.colorpicker.ColorPickerPreference
+             android:key="@string/key_custom_color_top_face_tr" hexValue="true"
+             type="rectangle"/>
+         <net.margaritov.preference.colorpicker.ColorPickerPreference
+             android:key="@string/key_custom_color_bottom_face_tr" hexValue="true"
+             type="rectangle"/>
+         <net.margaritov.preference.colorpicker.ColorPickerPreference
+             android:key="@string/key_custom_color_near_face_tr" hexValue="true"
+             type="rectangle"/>
+
+
+         <net.margaritov.preference.colorpicker.ColorPickerPreference
+             android:key="@string/key_custom_color_left_face_br" hexValue="true"
+             type="rectangle"/>
+         <net.margaritov.preference.colorpicker.ColorPickerPreference
+             android:key="@string/key_custom_color_right_face_br" hexValue="true"
+             type="rectangle"/>
+         <net.margaritov.preference.colorpicker.ColorPickerPreference
+             android:key="@string/key_custom_color_top_face_br" hexValue="true"
+             type="rectangle"/>
+         <net.margaritov.preference.colorpicker.ColorPickerPreference
+             android:key="@string/key_custom_color_bottom_face_br" hexValue="true"
+             type="rectangle"/>
+         <net.margaritov.preference.colorpicker.ColorPickerPreference
+             android:key="@string/key_custom_color_near_face_br" hexValue="true"
+             type="rectangle"/>
+	
+		<com.mycardboarddreams.jacobsladder.preferences.CheckBoxVerticalPreference
+			android:title="@string/label_show_walls"
+			android:layout="@layout/preference_background_checkbox"
+			android:key="@string/key_custom_has_background" />
+	
+		<com.mycardboarddreams.jacobsladder.preferences.SaveCustomThemePreference
+			android:widgetLayout="@layout/preference_save_custom_theme_view"
+			android:dialogTitle="@string/save_custom_theme"
+			android:dialogLayout="@layout/preference_save_custom_theme"
+			android:positiveButtonText="@string/custom_save_button_label"
+			android:key="@string/key_save_custom_set"/>
+
+     </com.mycardboarddreams.jacobsladder.preferences.custom.CustomColorsCategoryPreference>
+
+
+
+
+
+    <com.mycardboarddreams.jacobsladder.preferences.SeekBarSummaryPreference
+        android:icon="@drawable/settings_brightness"
+        android:key="@string/key_color_brightness"
+        jacobsladder:max="@integer/max_brightness"
+        jacobsladder:min="@integer/min_brightness"
+        jacobsladder:default_value="@integer/default_brightness"
+        />
+
+
+    <com.mycardboarddreams.jacobsladder.preferences.SeekBarSummaryPreference
+        android:key="@string/key_complexity_level"
+        android:icon="@drawable/settings_total_icon"
+        jacobsladder:max="@integer/max_complexity_level"
+        jacobsladder:min="@integer/min_complexity_level"
+        jacobsladder:default_value="@integer/default_complexity_level"
+        />
+
+</PreferenceScreen>

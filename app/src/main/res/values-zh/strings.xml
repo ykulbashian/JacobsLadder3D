@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">@string/jacobs_ladder</string>
+
+    <string name="jacobs_ladder_free">雅各的梯子 (免费)</string>
+
+    <string name="jacobs_ladder"	>雅各的梯子</string>
+    <string name="marshmallow"		>棉花糖</string>
+    <string name="bananas"			>香蕉</string>
+    <string name="fernlight"		>蕨类植物</string>
+    <string name="emerald_forest"	>翡翠森林</string>
+    <string name="lime_jello"		>石灰果冻</string>
+    <string name="lime_cream"		>石灰霜</string>
+    <string name="pale_blue"		>淡蓝</string>
+    <string name="airplane_window"	>飞机窗口</string>
+    <string name="arctic"			>北极</string>
+    <string name="aquarium"			>水族馆</string>
+    <string name="swimming_pool"	>游泳池</string>
+    <string name="bacterium"		>菌</string>
+    <string name="tokyo"			>东京</string>
+    <string name="disco"			>迪斯科</string>
+    <string name="blue_ultrasonic"	>蓝色超声波</string>
+    <string name="geode"			>水晶</string>
+    <string name="sepia"			>老照片</string>
+    <string name="calypso"			>Calypso</string>
+    <string name="storm"			>风暴</string>
+    <string name="gotham"			>哥特</string>
+    <string name="underworld"		>地狱</string>
+    <string name="orpheus"			>Orpheus</string>
+    <string name="shadow_cliffs"	>阴影峭壁</string>
+    <string name="backstage"		>后台</string>
+    <string name="gold"				>金</string>
+    <string name="ember"			>余烬</string>
+    <string name="tangerine"		>柑橘</string>
+    <string name="sunflower"		>向日葵</string>
+
+
+    <string-array name="help_dialog_message">
+        <item>设置Jacob的梯子作为你的动态壁纸。</item>
+        <item>双击壁纸暂停和恢复。</item>
+        <item>触摸多维数据集以移动它们。</item>
+    </string-array>
+
+    <string name="custom_save_button_label">存储</string>
+    <string name="custom_theme_save_cancel">取消</string>
+    <string name="select_color_theme">样式</string>
+    <string name="custom_background_color">背景颜色</string>
+    <string name="custom_color_title">创作者</string>
+    <string name="custom_theme_save_overwrite">更换</string>
+    <string name="custom_theme_save_overwrite_title">替换现有样式</string>
+    <string name="enter_custom_theme_title">名称</string>
+    <string name="help_dialog_title">如何使用Jacob的梯子</string>
+    <string name="label_show_walls">显示墙壁</string>
+    <string name="dialog_color_picker">颜色选择器</string>
+    <string name="custom_theme_save_overwrite_body">您确定要替换此样式吗？</string>
+    <string name="help_dialog_ok">关闭页面</string>
+    <string name="paused">停止。 点按两次即可恢复。</string>
+    <string name="unpaused">开始。 点按两次即可暂停。</string>
+    <string name="saved_custom_theme_toast">保存完成</string>
+    <string name="settings_starting">等待“设置”页面。</string>
+    <string name="save_custom_theme">@string/custom_save_button_label</string>
+    <string name="default_color_select">@string/tokyo</string>
+
+
+</resources>
