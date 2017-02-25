@@ -11,7 +11,12 @@ buildscript {
 apply plugin: 'com.android.application'
 apply plugin: 'com.google.firebase.firebase-crash'
 
-// If you add your API Key to the manifest, uncomment this line vvv
+/*
+
+ If you add your API Key to the manifest, uncomment the line below
+
+  */
+
 // apply plugin: 'io.fabric'
 
 repositories {
@@ -68,14 +73,27 @@ dependencies {
 
 apply plugin: 'com.google.gms.google-services'
 
-// Run this >>  ./gradlew crashlyticsUploadSymbolsDeluxeRelease
-
-
-// If you add your API Key to the manifest, uncomment these lines vvv
+/*
+ If you add your Fabric/Crashlytics API Key to the manifest, uncomment the lines below
+ */
 
 //crashlytics {
 //    enableNdk true
-//    androidNdkOut 'build/intermediates/cmake/deluxe/debug/obj'
-//    androidNdkLibsOut 'build/intermediates/cmake/deluxe/release/obj'
+//    androidNdkOut 'build/intermediates/cmake/debug/obj'
+//    androidNdkLibsOut 'build/intermediates/cmake/release/obj'
 //}
+
+/*
+
+ Then run this >>  ./gradlew crashlyticsUploadSymbolsRelease to upload
+
+ If you add flavors to your project, you need to run this instead:
+
+    ./gradlew crashlyticsUploadSymbols<Flavor>Release
+
+ Replace <Flavor> with your capitalized flavor name
+
+*/
+
+
 

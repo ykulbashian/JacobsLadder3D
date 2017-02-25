@@ -83,16 +83,16 @@ protected:
 
 	// Virtual methods to override***********************************
 
-    //Do all your opengl rendering calls here
+    // Do all your OpenGL rendering calls here
     virtual void renderFrameInThread(GLfloat fractionOfPreferredFrame) = 0;
 
-    //Do all your frame iteration/calculation calls here
+    // Do all your non-graphics calculations here
     virtual void iterateFrameInThread(GLfloat fractionOfPreferredFrame) = 0;
 
-    //Do all custom GL setup here
+    // Do all custom GL setup here
     virtual void setupCustomOpenGLInThread(GLuint width, GLuint height) = 0;
 
-    //Called when you are destroying the GL context
+    // Called when you are destroying the GL context
     virtual void destroyingCustomGLContextInThread() = 0;
 
     // **************************************************************
